@@ -58,3 +58,8 @@ header {
   background-color: green;
   color: white;
 }
+
+.items {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
