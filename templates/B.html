@@ -71,19 +71,31 @@
     corresponding button id, so that clicks of that button could be logged -->
     <div class="content-pane">
       <div class="vendor-wrapper" id="mp1">
-        <img src="../static/coppercombo.png" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">
-          Add To Cart
-        </button>
-        <span><span id="mp1-added">0</span> in cart</span>
+        <div class="row">
+          <div class="col">
+            <img src="../static/coppercombo.png" class="vendor-photo" />
+          </div>
+          <div class="col">
+            <div class="container">
+              <h2>$9.99</h2>
+              <button class="b-button vendor-book-button btn" type="submit" id="mp1">
+                Add To Cart
+              </button>
+              <span>
+                <span id="mp1-added">0</span> 
+                in cart</span>
+            </div>
+          </div>
+        </div>
+        
         <p>Stunning succulent combo, featuring 3 adolescent cacti in
-          industrial copper pots. <i>$9.99</i>
+          industrial copper pots.
         </p>
       </div>
 
       <div class="vendor-wrapper" id="mp2">
         <img src="../static/geoprickly.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">
+        <button class="b-button vendor-book-button btn" type="submit" id="mp2">
           Add To Cart
         </button>
         <span><span id="mp2-added">0</span> in cart</span>
@@ -93,7 +105,7 @@
 
       <div class="vendor-wrapper" id="mp3">
         <img src="../static/garden.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">
+        <button class="b-button vendor-book-button btn" type="submit" id="mp3">
           Add To Cart
         </button>
         <span><span id="mp3-added">0</span> in cart</span>
@@ -103,7 +115,7 @@
 
       <div class="vendor-wrapper" id="mp4">
         <img src="../static/garden-combo.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">
+        <button class="b-button vendor-book-button btn" type="submit" id="mp4">
           Add To Cart
         </button>
         <span><span id="mp4-added">0</span> in cart</span>

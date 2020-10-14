@@ -53,3 +53,8 @@ header {
 .red-cart {
 	color: #DF0000;
 }
+
+.b-button {
+  background-color: green;
+  color: white;
+}
